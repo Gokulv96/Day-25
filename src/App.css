@@ -1,0 +1,51 @@
+
+h5{
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(126, 206, 126);
+}
+form{
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.row-cols-1{
+  margin-top: 140px;
+}
+
+.card{
+  margin-bottom: 20px;
+  height: 250px;
+  width:500px;
+  border-radius: 10px;
+}
+.col{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.head{
+  margin-top: 120px;
+  justify-content: space-between;
+  color: white;
+  display: flex;
+}
+.edit{
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+.btn-danger{
+  margin-left: 10px;
+}
+.dropdown-menu{
+  background-color: rgb(175, 175, 219);
+}
+.status{
+  width: 200px;
+  background-color: rgb(93, 93, 236);
+  color:white;
+}
