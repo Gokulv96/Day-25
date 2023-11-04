@@ -67,8 +67,8 @@ function App() {
        <input type="text" name ="todo_name"className="form-control" value={name} placeholder="Todo name" onChange={(e)=>setName(e.target.value)}/>}
     </div>
     <div className="col">
-      {clicked?<input type="text" name ="todo_name"className="form-control" value={editdesc} placeholder="Todo name" onChange={(e)=>setEditDesc(e.target.value)}/>:
-       <input type="text" name ="todo_name"className="form-control" value={desc} placeholder="Todo name" onChange={(e)=>setDesc(e.target.value)}/>}
+      {clicked?<input type="text" name ="todo_name"className="form-control" value={editdesc} placeholder="Todo Description" onChange={(e)=>setEditDesc(e.target.value)}/>:
+       <input type="text" name ="todo_name"className="form-control" value={desc} placeholder="Todo Description" onChange={(e)=>setDesc(e.target.value)}/>}
     </div>
     <div className="col">
       {clicked? <button type="button" className="btn btn-success" onClick={handleUpdate}>Update</button>:<button type="button" className="btn btn-success" onClick={handleSubmit}>Add</button>}
