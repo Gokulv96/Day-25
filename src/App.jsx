@@ -40,7 +40,7 @@ function App() {
   }
   const handleUpdate = (e)=>{
     e.preventDefault();
-    if(name !==""||desc !==""){
+    if(editname !==""||editdesc !==""){
     let updateItems = {
       title:editname,
       description:editdesc
